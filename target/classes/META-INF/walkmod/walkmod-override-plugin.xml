@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN"
+   "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+	<bean id="org.walkmod:walkmod-override-plugin:override-corrector"
+		class="org.walkmod.override.visitors.OverrideVisitor"></bean>
+
+	<alias name="org.walkmod:walkmod-override-plugin:override-corrector"
+		alias="walkmod:commons:override-corrector" />
+		
+	<alias name="org.walkmod:walkmod-override-plugin:override-corrector"
+		alias="org.walkmod:walkmod-override-plugin:override" />
+</beans>
