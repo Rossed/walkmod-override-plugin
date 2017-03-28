@@ -2,6 +2,8 @@ package org.walkmod.override.tests;
 
 import java.util.List;
 
+//TEST
+
 import org.junit.Assert;
 import org.junit.Test;
 import org.walkmod.javalang.ast.CompilationUnit;
