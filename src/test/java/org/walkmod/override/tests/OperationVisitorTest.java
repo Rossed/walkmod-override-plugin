@@ -1,7 +1,5 @@
 package org.walkmod.override.tests;
 
-//TESSSTTING
-
 import java.util.List;
 
 import org.junit.Assert;
